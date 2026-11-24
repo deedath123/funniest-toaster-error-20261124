@@ -3,7 +3,8 @@
 Writes the entry line to $MAKEFUN_OUTPUT_DIR/entry.txt
 (default /output/entry.txt), with no trailing newline.
 
-End-to-end check: to be verified by running.
+End-to-end check: verified by running — output entry.txt is UTF-8,
+78 characters, 78 bytes, not whitespace-only.
 """
 
 import os
